@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_barbero"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/tijera"
+                android:drawablePadding="10dp"
+                android:drawableTint="#ffffff"
+                android:text="@string/label_reservar"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_productos"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/store"
+                android:drawablePadding="10dp"
+                android:drawableTint="#ffffff"
+                android:text="@string/comprar_button"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_miperfil"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/clientes"
+                android:drawablePadding="10dp"
+                android:drawableTint="#ffffff"
+                android:text="@string/miperfil_button"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_reserva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/ic_attach_file_black_24dp"
+                android:drawablePadding="10dp"
+                android:drawableTint="#ffffff"
+                android:text="@string/misreservas_button"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/btn_compras"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/compras"
+                android:drawablePadding="10dp"
+                android:drawableTint="#ffffff"
+                android:text="@string/miscompras_button"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_carrito"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/carrito"
+                android:drawablePadding="10dp"
+                android:drawableTint="#ffffff"
+                android:text="@string/vercarrito_button"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnrojo"
+                android:drawableLeft="@drawable/ic_close_black_24dp"
+                android:drawablePadding="10dp"
+                android:drawableTint="#ffffff"
+                android:text="@string/signout_button"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

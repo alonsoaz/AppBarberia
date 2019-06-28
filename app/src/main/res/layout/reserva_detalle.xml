@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/cardReserva"
+    app:cardCornerRadius="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:text="@string/label_cliente"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:background="@drawable/btnazul"
+            android:drawableLeft="@drawable/clientes"
+            android:drawablePadding="10dp"
+            android:drawableTint="#ffffff"
+            android:textColor="#ffffff"
+            android:textAlignment="center"/>
+        <EditText
+            android:id="@+id/res_edt_cliente"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/editextdesng"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:text="@string/label_nombser"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:background="@drawable/btnazul"
+                    android:drawableLeft="@drawable/navaja"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#ffffff"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"/>
+                <EditText
+                    android:id="@+id/res_edt_servicio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/editextdesng"
+                    android:textColor="#35395E"
+                    android:textAlignment="center"
+                    android:enabled="false"
+                    android:textColorHint="#ffffff" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:text="@string/label_nombbarb"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:background="@drawable/btnazul"
+                    android:drawableLeft="@drawable/brush"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#ffffff"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"/>
+                <EditText
+                    android:id="@+id/res_edt_barbero"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/editextdesng"
+                    android:textColor="#35395E"
+                    android:textAlignment="center"
+                    android:enabled="false"
+                    android:textColorHint="#ffffff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:text="@string/label_inicio"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:background="@drawable/btnazul"
+                    android:drawableLeft="@drawable/inicio"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#ffffff"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"/>
+                <EditText
+                    android:id="@+id/res_edt_inicio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/editextdesng"
+                    android:textColor="#35395E"
+                    android:textAlignment="center"
+                    android:enabled="false"
+                    android:textColorHint="#ffffff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:text="@string/label_fin"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:background="@drawable/btnazul"
+                    android:drawableLeft="@drawable/fin"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#ffffff"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"/>
+                <EditText
+                    android:id="@+id/res_edt_fin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/editextdesng"
+                    android:textColor="#35395E"
+                    android:textAlignment="center"
+                    android:enabled="false"
+                    android:textColorHint="#ffffff" />
+
+               <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:text="@string/label_status"
+                    android:textSize="16dp"
+                    android:padding="5dp"
+                    android:background="@drawable/btnazul"
+                    android:drawableLeft="@drawable/punto_de_venta"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#ffffff"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"/>
+                <EditText
+                    android:id="@+id/res_edt_status"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/editextdesng"
+                    android:textColor="#35395E"
+                    android:textAlignment="center"
+                    android:enabled="false"
+                    android:textColorHint="#ffffff" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/res_btnPay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnrojo"
+                    android:drawableLeft="@drawable/pay"
+                    android:drawablePadding="0dp"
+                    android:drawableTint="#ffffff"
+                    android:text="@string/button_pay"
+                    android:textColor="#ffffff"
+                    android:enabled="false"/>
+
+                <Button
+                    android:id="@+id/res_btnErase"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnrojo"
+                    android:drawableLeft="@drawable/erase"
+                    android:drawablePadding="0dp"
+                    android:drawableTint="#ffffff"
+                    android:text="@string/button_erase"
+                    android:textColor="#ffffff"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+                <EditText
+                    android:id="@+id/res_edt_msj"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/editextdesng"
+                    android:drawableLeft="@drawable/mensjae"
+                    android:drawablePadding="8dp"
+                    android:drawableTint="#ffffff"
+                    android:textColor="#35395E"
+                    android:textAlignment="center"
+                    android:enabled="false"
+                    android:maxLines="3"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

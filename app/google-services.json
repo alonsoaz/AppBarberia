@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "107200497979",
+    "firebase_url": "https://barb3ry.firebaseio.com",
+    "project_id": "barb3ry",
+    "storage_bucket": "barb3ry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107200497979:android:61c4b8603c670ef2",
+        "android_client_info": {
+          "package_name": "pe.edu.idat.appbarberia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107200497979-qaf4vep4vbgelhtb77jc448gfmqhfn7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.edu.idat.appbarberia",
+            "certificate_hash": "53cc434e105aae9102f385592682c2c2bfdd3af5"
+          }
+        },
+        {
+          "client_id": "107200497979-0ec77nlfd4kmcj2aok2h6qfpiu3rus12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP7sW8y0M3nnfJs0BaeA0FzPN6QffYX2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107200497979-0ec77nlfd4kmcj2aok2h6qfpiu3rus12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

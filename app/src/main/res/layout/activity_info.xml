@@ -1,0 +1,135 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_info_black_24dp"
+            android:background="@drawable/btnrojo"
+            android:drawablePadding="0dp"
+            android:drawableTint="#ffffff"
+            android:text="@string/infromacion_button"
+            android:textColor="#ffffff"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:scrollbars="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/info_servicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/github"
+                android:drawablePadding="10dp"
+                android:text="SERVICIO REST"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/info_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/github"
+                android:drawablePadding="10dp"
+                android:text="CLIENTE WEB"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/info_database"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/mysql"
+                android:drawablePadding="10dp"
+                android:text="barberia.BD"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/info_youtube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/youtube"
+                android:drawablePadding="10dp"
+                android:text="Canal en YouTube"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/info_drive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/drive"
+                android:drawablePadding="10dp"
+                android:text="Archivos"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/info_mega"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/mega"
+                android:drawablePadding="10dp"
+                android:text="Repositorio"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

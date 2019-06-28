@@ -1,0 +1,376 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:scrollbars="vertical"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_gravity="top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/car_btnMenu"
+            android:layout_width="1dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:drawableTop="@drawable/barber"
+            android:background="@drawable/btnazul"
+            android:drawablePadding="0dp"
+            android:drawableTint="#ffffff"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginLeft="52dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/carrito_lleno"
+            android:background="@drawable/btnazul"
+            android:drawablePadding="0dp"
+            android:drawableTint="#ffffff"
+            android:text="@string/carrito_button"
+            android:textColor="#ffffff"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:scrollbars="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/car_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="13dp"
+                        android:background="@drawable/btnazul"
+                        android:drawableLeft="@drawable/canjear"
+                        android:drawablePadding="10dp"
+                        android:layout_weight="1"
+                        android:drawableTint="#ffffff"
+                        android:padding="5dp"
+                        android:text="@string/label_codventa"
+                        android:textColor="#ffffff"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginLeft="13dp"
+                        android:text="@string/label_codcliente"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        android:background="@drawable/btnazul"
+                        android:drawableLeft="@drawable/chivo"
+                        android:drawablePadding="10dp"
+                        android:layout_weight="1"
+                        android:drawableTint="#ffffff"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <EditText
+                        android:id="@+id/car_edt_codventa"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="27dp"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        android:background="@drawable/editextdesng"
+                        android:layout_weight="1"
+                        android:textColor="#35395E"
+                        android:enabled="false"
+                        android:textAlignment="center"/>
+
+                    <EditText
+                        android:id="@+id/car_edt_codcliente"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="27dp"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        android:background="@drawable/editextdesng"
+                        android:layout_weight="1"
+                        android:textColor="#35395E"
+                        android:enabled="false"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="45dp"
+                        android:background="@drawable/btnazul"
+                        android:drawableLeft="@drawable/horas_extras"
+                        android:drawablePadding="10dp"
+                        android:layout_weight="1"
+                        android:drawableTint="#ffffff"
+                        android:padding="5dp"
+                        android:text="@string/label_date"
+                        android:textColor="#ffffff"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginLeft="60dp"
+                        android:text="@string/label_status"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        android:background="@drawable/btnazul"
+                        android:drawableLeft="@drawable/punto_de_venta"
+                        android:drawablePadding="10dp"
+                        android:layout_weight="1"
+                        android:drawableTint="#ffffff"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <EditText
+                        android:id="@+id/car_edt_fecha"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="27dp"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        android:background="@drawable/editextdesng"
+                        android:layout_weight="1"
+                        android:textColor="#35395E"
+                        android:enabled="false"
+                        android:textAlignment="center"/>
+
+                    <EditText
+                        android:id="@+id/car_edt_status"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="1dp"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        android:background="@drawable/editextdesng"
+                        android:layout_weight="1"
+                        android:textColor="#35395E"
+                        android:enabled="false"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:text="@string/label_cliente"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        android:background="@drawable/btnazul"
+                        android:drawableLeft="@drawable/clientes"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="#ffffff"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center"/>
+                    <EditText
+                        android:id="@+id/car_edt_cliente"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/editextdesng"
+                        android:textColor="#35395E"
+                        android:enabled="false"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="17dp"
+                        android:text="@string/label_monto"
+                        android:textSize="16dp"
+                        android:padding="5dp"
+                        android:background="@drawable/btnazul"
+                        android:drawableLeft="@drawable/billetes"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="#ffffff"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center"/>
+                    <EditText
+                        android:id="@+id/car_edt_monto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/editextdesng"
+                        android:textColor="#35395E"
+                        android:enabled="false"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="23dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <Button
+                        android:id="@+id/car_btnPay"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnrojo"
+                        android:drawableLeft="@drawable/pay"
+                        android:drawablePadding="0dp"
+                        android:drawableTint="#ffffff"
+                        android:text="@string/button_pay"
+                        android:textColor="#ffffff"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/car_btnDetail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnazul"
+                        android:drawableLeft="@drawable/detalle"
+                        android:drawablePadding="0dp"
+                        android:drawableTint="#ffffff"
+                        android:text="@string/button_detail"
+                        android:textColor="#ffffff"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:id="@+id/car_btnErase"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnrojo"
+                        android:drawableLeft="@drawable/erase"
+                        android:drawablePadding="0dp"
+                        android:drawableTint="#ffffff"
+                        android:text="@string/button_erase"
+                        android:textColor="#ffffff"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:layout_margin="15dp"
+                    >
+                    <EditText
+                        android:id="@+id/car_edt_msj"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:padding="5dp"
+                        android:background="@drawable/editextdesng"
+                        android:drawableLeft="@drawable/mensjae"
+                        android:drawablePadding="8dp"
+                        android:drawableTint="#ffffff"
+                        android:textAlignment="center"
+                        android:textColor="#35395E"
+                        android:maxLines="4"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

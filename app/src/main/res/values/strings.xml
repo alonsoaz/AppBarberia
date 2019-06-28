@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">Barberia</string>
+    <string name="user_label">Usuario</string>
+    <string name="pass_label">Password</string>
+    <string name="logn_button">Log In</string>
+    <string name="sign_button">Sign In</string>
+
+    <string name="barbero_button">BARBEROS</string>
+    <string name="servicio_button">SERVICIO</string>
+    <string name="producto_button">PRODUCTOS</string>
+    <string name="carrito_button">CARRITO</string>
+    <string name="detalle_button">DETALLE</string>
+    <string name="compras_button">COMPRAS</string>
+    <string name="reservas_button">RESERVAS</string>
+    <string name="infromacion_button">INFORMACION</string>
+    <string name="signout_button">SALIR</string>
+
+    <string name="label_nombbarb">BARBERO</string>0
+    <string name="label_celular">CELULAR</string>
+    <string name="label_email">E-M@IL</string>
+    <string name="label_dni">DNI</string>
+
+    <string name="header_servicios">SERVICIOS</string>
+
+    <string name="label_nombser">SERVICIO</string>
+    <string name="label_duracion">DURACION</string>
+    <string name="label_precio">PRECIO</string>
+
+    <string name="button_agenda">DISPONIBILIDAD</string>
+
+    <string-array name="mes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="anho">
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+    </string-array>
+
+    <string-array name="hour">
+        <item>0</item>>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string-array name="minute">
+        <item>0</item>>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+    </string-array>
+
+
+    <string name="button_consultar">CONSULTAR</string>
+    <string name="button_reservar">RESERVAR</string>
+
+    <string name="client_labl">CLIENTE</string>
+    <string name="prod_labl">PRODUCTO</string>
+    <string name="pric_labl">PRECIO</string>
+    <string name="qant_labl">CANTIDAD</string>
+    <string name="list">LISTA</string>
+    <string name="bt_add">AGREGAR</string>
+
+    <string name="label_tipo">TIPO</string>
+    <string name="label_prod">PRODUCTO</string>
+    <string name="label_stock">CANTIDAD</string>
+    <string name="label_marca">MARCA</string>
+
+    <string name="buy_button">COMPRAR</string>
+
+    <string name="cantidad_hint">CANTIDAD</string>
+
+    <string name="text_msg">MENSAJE</string>
+
+    <string name="label_codventa">COD. VENTA</string>
+    <string name="label_coddetventa">COD. DET. VENTA</string>
+    <string name="label_codcliente">COD. CLIENTE</string>
+    <string name="label_date">FECHA</string>
+    <string name="label_cliente">CLIENTE</string>
+    <string name="label_status">ESTADO</string>
+
+    <string name="label_discount">DESCUENTO</string>
+    <string name="label_subtotal">SUBTOTAL</string>
+
+    <string name="button_detail">DETALLE</string>
+    <string name="button_pay">PAGAR</string>
+    <string name="button_erase">ELIMINAR</string>
+
+    <string name="label_inicio">INICIO</string>
+    <string name="label_fin">FIN</string>
+
+    <string name="label_nombre">NOMBRE</string>
+    <string name="label_apellido">APELLIDO</string>
+    <string name="button_registrar">REGISTRAR</string>
+    <string name="conectar">Conectar</string>
+    <string name="ngrok">Ingresar Valor</string>
+    <string name="label_password">Contraseña</string>
+    <string name="label_cpassword">Confrmar Password</string>
+    <string name="label_perfil">Mi Perfil</string>
+    <string name="password_button">Cambiar Contraseña</string>
+    <string name="datos_button">Actualizar Datos</string>
+    <string name="label_cambiar_password">Cambiar Password</string>
+    <string name="Ingresar_Password">Ingresar Password</string>
+    <string name="label_nueva_password">Nueva Password</string>
+    <string name="button_actualizar">Actualizar Datos</string>
+    <string name="label_monto">MONTO</string>
+    <string name="label_reservar">RESERVAR</string>
+    <string name="comprar_button">COMPRAR</string>
+    <string name="vercarrito_button">VER CARRITO</string>
+    <string name="miscompras_button">MIS COMPRAS</string>
+    <string name="misreservas_button">MIS RESERVAS</string>
+    <string name="miperfil_button">MI PERFIL</string>
+    <string name="barbersoft">BarberSoft</string>
+    <string name="title_activity_splash">Splash</string>
+
+</resources>
+

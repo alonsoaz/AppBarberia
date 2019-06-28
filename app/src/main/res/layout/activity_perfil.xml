@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".IngresarLink"
+    android:scrollbars="vertical"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_gravity="top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/prf_btnMenu"
+            android:layout_width="1dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:drawableTop="@drawable/barber"
+            android:background="@drawable/btnazul"
+            android:drawablePadding="0dp"
+            android:drawableTint="#ffffff"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/txtCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginRight="52dp"
+            android:layout_marginLeft="52dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/sideburns"
+            android:background="@drawable/btnrojo"
+            android:drawablePadding="0dp"
+            android:drawableTint="#ffffff"
+            android:text="@string/label_perfil"
+            android:textColor="#ffffff"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/prf_btnClose"
+            android:layout_width="1dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:drawableTop="@drawable/ic_close_black_24dp"
+            android:background="@drawable/btnrojo"
+            android:drawablePadding="0dp"
+            android:drawableTint="#ffffff"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <Button
+                android:id="@+id/prf_btn_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/motorhead"
+                android:drawablePadding="10dp"
+                android:drawableTint="#ffffff"
+                android:text="@string/password_button"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/prf_btn_update"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnazul"
+                android:drawableLeft="@drawable/razor"
+                android:drawablePadding="10dp"
+                android:drawableTint="#ffffff"
+                android:text="@string/datos_button"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

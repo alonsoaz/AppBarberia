@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pe.edu.idat.appbarberia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/barbersoft"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Password" />
+        <activity android:name=".IngresarLink">
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Barberos" />
+        <activity android:name=".Carrito" />
+        <activity android:name=".Cliente" />
+        <activity android:name=".Compras" />
+        <activity android:name=".DetalleVentaxp" />
+        <activity android:name=".DetallePasado" />
+        <activity android:name=".Disponibilidad" />
+        <activity android:name=".Informacion" />
+        <activity android:name=".Productos" />
+        <activity android:name=".Reservas" />
+        <activity android:name=".Servicios" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".UpdateClient" />
+    </application>
+
+</manifest>

@@ -1,0 +1,93 @@
+package pe.edu.idat.appbarberia.Modelos.JSON;
+
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import com.fasterxml.jackson.annotation.JsonAnySetter;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
+import java.io.Serializable;
+import java.util.HashMap;
+import java.util.Map;
+
+@JsonInclude(JsonInclude.Include.NON_NULL)
+@JsonPropertyOrder({
+        "aDni",
+        "bPassword"
+})
+public class Login implements Serializable
+{
+
+    @JsonProperty("aDni")
+    private String aDni;
+    @JsonProperty("bPassword")
+    private String bPassword;
+    @JsonIgnore
+    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    private final static long serialVersionUID = -8277926379491108115L;
+
+    /**
+     * No args constructor for use in serialization
+     *
+     */
+    public Login() {
+    }
+
+    /**
+     *
+     * @param aDni
+     * @param bPassword
+     */
+    public Login(String aDni, String bPassword) {
+        super();
+        this.aDni = aDni;
+        this.bPassword = bPassword;
+    }
+
+    @JsonProperty("aDni")
+    public String getADni() {
+        return aDni;
+    }
+
+    @JsonProperty("aDni")
+    public void setADni(String aDni) {
+        this.aDni = aDni;
+    }
+
+    public Login withADni(String aDni) {
+        this.aDni = aDni;
+        return this;
+    }
+
+    @JsonProperty("bPassword")
+    public String getBPassword() {
+        return bPassword;
+    }
+
+    @JsonProperty("bPassword")
+    public void setBPassword(String bPassword) {
+        this.bPassword = bPassword;
+    }
+
+    public Login withBPassword(String bPassword) {
+        this.bPassword = bPassword;
+        return this;
+    }
+
+    @JsonAnyGetter
+    public Map<String, Object> getAdditionalProperties() {
+        return this.additionalProperties;
+    }
+
+    @JsonAnySetter
+    public void setAdditionalProperty(String name, Object value) {
+        this.additionalProperties.put(name, value);
+    }
+
+    public Login withAdditionalProperty(String name, Object value) {
+        this.additionalProperties.put(name, value);
+        return this;
+    }
+
+}
